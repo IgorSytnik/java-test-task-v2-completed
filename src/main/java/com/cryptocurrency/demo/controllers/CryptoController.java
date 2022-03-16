@@ -17,18 +17,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/*todo
-*  unique stuff
-*  docstring
-*  clean up
-*  ✔ Task evaluation
-    All parts of the task were implemented correctly
-    Quality and style of the code
-    All possible exception situations are handled properly
-    The project should be covered with tests.
-* */
-
-
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/cryptocurrencies")
