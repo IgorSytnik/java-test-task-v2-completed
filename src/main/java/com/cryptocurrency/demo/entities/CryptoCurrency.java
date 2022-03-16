@@ -11,9 +11,6 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @Document(collection = "crypto_currency")
-//@CompoundIndexes({
-//        @CompoundIndex(name = "unique_pair_idx", def = "#{T(org.bson.Document).parse(\"{ 'currName1': 1, 'currName2': 1 }\")}", unique = true)
-//})
 public class CryptoCurrency {
 
     @Id
